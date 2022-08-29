@@ -1,0 +1,11 @@
+@mixin theme ($theme: green) {
+    background-color: $theme;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 10px lightblue;
+    margin-bottom: 10px ;
+}
+@mixin bim ($font:50px) {
+    font-size: $font;
+    color: lime;
+}

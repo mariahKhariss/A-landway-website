@@ -1,0 +1,52 @@
+@import "variable";
+@import "mixin";
+
+
+.info{
+    @include theme;
+}
+.bim{
+    @include rate;
+}
+// header {
+//     border: thick solid red;
+//     nav {
+//         display: flex;
+//         justify-content: center;
+//         ul {
+//             list-style-type: none;
+//             display: flex;
+//             li {
+//                 margin: 0.2px;
+//                 a {
+        //             text-decoration: 0;
+        //             font-family: $heading-font;
+        //             font-size: map-get($font-size, "large" );
+        //             &:hover{
+        //                 color: red;
+        //             }
+        //         }
+        //     }
+        // }
+
+//     }
+
+// }
+
+// header{
+//     nav{
+//         ul{
+//             display: flex;
+//             list-style-type: none;
+//             justify-content: center;
+//         }
+//     }
+// }
+// container{
+//     border: dashed thick brown;
+//     width: 50%;
+//     height: 50vh;
+
+//maps
+// $font-size:( "small":0.8em, "normal":1.2em ,"large":1.8em)
+

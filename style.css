@@ -1,0 +1,13 @@
+.info {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  -webkit-box-shadow: 0px 0px 10px lightblue;
+          box-shadow: 0px 0px 10px lightblue;
+  margin-bottom: 10px;
+}
+
+.bim {
+  @in;
+}
+/*# sourceMappingURL=style.css.map */
